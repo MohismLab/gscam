@@ -1,0 +1,81 @@
+image_width: 640
+image_height: 480
+camera_name: narrow_stereo
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [486.13429,   0.     , 323.21383,
+           0.     , 490.3207 , 199.90992,
+           0.     ,   0.     ,   1.     ]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.395197, 0.155264, 0.006477, 0.004490, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [390.15884,   0.     , 330.39361,   0.     ,
+           0.     , 435.94189, 193.27544,   0.     ,
+           0.     ,   0.     ,   1.     ,   0.     ]
+
+
+
+# image_width: 1920
+# image_height: 1080
+# camera_name: narrow_stereo
+# camera_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [2514.45821,    0.     , 1050.54152,
+#             0.     , 1713.1791 , -196.95367,
+#             0.     ,    0.     ,    1.     ]
+# distortion_model: plumb_bob
+# distortion_coefficients:
+#   rows: 1
+#   cols: 5
+#   data: [-1.679918, -0.759742, 0.625946, -0.065809, 0.000000]
+# rectification_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [1., 0., 0.,
+#          0., 1., 0.,
+#          0., 0., 1.]
+# projection_matrix:
+#   rows: 3
+#   cols: 4
+#   data: [2513.14868,    0.     , 1049.99437,    0.     ,
+#             0.     , 1711.59277, -196.7713 ,    0.     ,
+#             0.     ,    0.     ,    1.     ,    0.     ]
+# image_width: 1920
+# image_height: 1080
+# camera_name: narrow_stereo
+# camera_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [2514.45821,    0.     , 1050.54152,
+#             0.     , 1713.1791 , -196.95367,
+#             0.     ,    0.     ,    1.     ]
+# distortion_model: plumb_bob
+# distortion_coefficients:
+#   rows: 1
+#   cols: 5
+#   data: [-1.679918, -0.759742, 0.625946, -0.065809, 0.000000]
+# rectification_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [1., 0., 0.,
+#          0., 1., 0.,
+#          0., 0., 1.]
+# projection_matrix:
+#   rows: 3
+#   cols: 4
+#   data: [2513.14868,    0.     , 1049.99437,    0.     ,
+#             0.     , 1711.59277, -196.7713 ,    0.     ,
+#             0.     ,    0.     ,    1.     ,    0.     ]
